@@ -2,11 +2,6 @@
   "name": "react-template",
   "version": "0.0.0",
   "private": true,
-  "author": {
-    "name": "Lukas Dias",
-    "email": "diaslukas19@gmail.com",
-    "url": "https://github.com/Lukasdias"
-  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

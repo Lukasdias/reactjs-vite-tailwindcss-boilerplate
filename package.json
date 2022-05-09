@@ -1,8 +1,12 @@
 {
-  "name": "reactjs-vite-tailwindcss-boilerplate",
-  "description": "This is a React + vite boilerplate to be used with Tailwindcss.",
-  "version": "0.4.1",
+  "name": "react-template",
+  "version": "0.0.0",
   "private": true,
+  "author": {
+    "name": "Lukas Dias",
+    "email": "diaslukas19@gmail.com",
+    "url": "https://github.com/Lukasdias"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -11,6 +15,8 @@
     "lint": "eslint src --max-warnings=0"
   },
   "dependencies": {
+    "@headlessui/react": "^1.6.1",
+    "phosphor-react": "^1.4.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },
@@ -19,6 +25,7 @@
     "@babel/preset-env": "^7.17.10",
     "@babel/preset-react": "^7.16.7",
     "@babel/preset-typescript": "^7.16.7",
+    "@tailwindcss/typography": "^0.5.2",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@types/jest": "^27.4.1",

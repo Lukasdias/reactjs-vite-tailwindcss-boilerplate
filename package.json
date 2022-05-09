@@ -3,15 +3,6 @@
   "description": "This is a React + vite boilerplate to be used with Tailwindcss.",
   "version": "0.4.1",
   "private": true,
-  "author": {
-    "name": "João Paulo Moraes",
-    "email": "joaopaulomoraes@outlook.com",
-    "url": "https://github.com/joaopaulomoraes"
-  },
-  "bugs": {
-    "url": "https://github.com/joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate/issues",
-    "email": "joaopaulomoraes@outlook.com"
-  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

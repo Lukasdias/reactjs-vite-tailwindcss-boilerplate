@@ -1,26 +1,30 @@
-import Avatar from 'components/Avatar'
+import { motion, MotionConfig } from 'framer-motion'
 
 function App() {
   return (
-    <div className="bg-white">
-      <div className="py-16 px-4 mx-auto max-w-screen-xl sm:py-24 sm:px-6 lg:px-8">
-        <div className="text-center">
-          <h2 className="text-base font-semibold tracking-wide text-blue-600 uppercase">
-            Welcome to
-          </h2>
-          <p className="my-3 text-4xl font-bold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
-            reactjs-vite-tailwindcss-boilerplate
-          </p>
-          <p className="text-xl text-gray-400">Start building for free.</p>
-          <p className="mt-5">
-            <Avatar
-              size="large"
-              src="https://www.gravatar.com/avatar/4405735f6f3129e0286d9d43e7b460d0"
-            />
-          </p>
-        </div>
+    <MotionConfig reducedMotion="user">
+      <div className="flex flex-col gap-5 justify-center items-center w-screen h-screen ">
+        <h1 className="mt-5 max-w-[60vw] text-5xl font-bold text-center text-orange-700 animate-pulse">
+          React + Vite + TS + FramerMotion + TailwindCSS + HeadlessUI + Zustand
+          + Jest
+        </h1>
+        <motion.div
+          animate={{
+            scale: [1, 2, 2, 1, 1],
+            rotate: [0, 0, 270, 270, 0],
+            borderRadius: ['20%', '20%', '50%', '50%', '20%']
+          }}
+          transition={{
+            duration: 3,
+            ease: 'easeInOut',
+            times: [0, 0.2, 0.5, 0.8, 1],
+            repeat: Infinity,
+            repeatDelay: 1
+          }}
+          className="flex w-[250px] h-[250px] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+        />
       </div>
-    </div>
+    </MotionConfig>
   )
 }
 

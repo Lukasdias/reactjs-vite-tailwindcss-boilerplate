@@ -5,15 +5,19 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "serve": "vite preview",
+    "serve": "yarn build && vite preview",
     "test": "jest",
     "lint": "eslint src --max-warnings=0"
   },
   "dependencies": {
-    "@headlessui/react": "^1.6.1",
+    "@headlessui/react": "^1.6.3",
+    "axios": "^0.27.2",
+    "formik": "^2.2.9",
+    "framer-motion": "^6.3.4",
     "phosphor-react": "^1.4.1",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "zustand": "^4.0.0-rc.1"
   },
   "devDependencies": {
     "@babel/core": "^7.17.10",

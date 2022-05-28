@@ -11,7 +11,11 @@ This project uses many tools like:
 - [TypeScript](https://www.typescriptlang.org)
 - [Jest](https://jestjs.io)
 - [Testing Library](https://testing-library.com)
+- [Framer Motion](https://www.framer.com/motion/)
 - [Tailwindcss](https://tailwindcss.com)
+- [HeadlessUI](https://headlessui.dev/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
+- [Formik](https://formik.org/docs/overview)
 - [Eslint](https://eslint.org)
 - [Prettier](https://prettier.io)
 
@@ -22,7 +26,7 @@ This project uses many tools like:
 Create the project.
 
 ```bash
-npx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
+npx degit lukasdias/reactjs-vite-tailwindcss-boilerplate my-app
 ```
 
 Access the project directory.
@@ -36,8 +40,6 @@ Install dependencies.
 ```bash
 npm install
 ```
-
-Serve with hot reload at http://localhost:3000.
 
 ```bash
 npm run dev
@@ -60,7 +62,3 @@ npm run build
 ```bash
 npm run test
 ```
-
-## License
-
-This project is licensed under the MIT License.

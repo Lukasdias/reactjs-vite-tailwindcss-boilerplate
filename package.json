@@ -12,8 +12,14 @@
     "typecheck": "tsc --project tsconfig.json --noEmit"
   },
   "dependencies": {
+    "axios": "^1.2.0",
+    "framer-motion": "^7.6.17",
+    "jotai": "^1.11.0",
+    "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "shortid": "^2.2.16"
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",
@@ -26,6 +32,7 @@
     "@types/node": "^18.11.9",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
+    "@types/shortid": "^0.0.29",
     "@types/testing-library__jest-dom": "^5.14.5",
     "@typescript-eslint/eslint-plugin": "^5.44.0",
     "@typescript-eslint/parser": "^5.44.0",
@@ -45,6 +52,7 @@
     "tailwindcss": "^3.2.4",
     "typescript": "^4.9.3",
     "vite": "^3.2.4",
+    "vite-plugin-compression": "^0.5.1",
     "vite-tsconfig-paths": "^3.6.0"
   }
 }

@@ -13,9 +13,7 @@ This project uses many tools like:
 - [Testing Library](https://testing-library.com)
 - [Framer Motion](https://www.framer.com/motion/)
 - [Tailwindcss](https://tailwindcss.com)
-- [HeadlessUI](https://headlessui.dev/)
 - [Axios](https://axios-http.com/ptbr/docs/intro)
-- [Formik](https://formik.org/docs/overview)
 - [Eslint](https://eslint.org)
 - [Prettier](https://prettier.io)
 
